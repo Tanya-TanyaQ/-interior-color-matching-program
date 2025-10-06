@@ -7,7 +7,7 @@ def generate_color_palette(base_color):
     r, g, b = base_color
     h, l, s = colorsys.rgb_to_hls(r / 255.0, g / 255.0, b / 255.0)
     # Generate complementary color
-    complementary_h = (h + 0.5) % 1.0
+    complementary_h = (h + 0.5) % 1.0 
     complementary_rgb = colorsys.hls_to_rgb(complementary_h, l, s)  
     complementary_color = tuple(int(c * 255) for c in complementary_rgb)
     # Generate analogous colors
