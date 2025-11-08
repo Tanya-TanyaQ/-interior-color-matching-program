@@ -1,6 +1,6 @@
 # -interior-color-matching-program_________
 import colorsys 
-import random
+import random 
 import matplotlib.pyplot as plt 
 def generate_color_palette(base_color):
     """Generates a color palette based on a given base color using complementary and analogous schemes."""  
