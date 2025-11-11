@@ -4,7 +4,7 @@ import random
 import matplotlib.pyplot as plt 
 def generate_color_palette(base_color):
     """Generates a color palette based on a given base color using complementary and analogous schemes."""  
-    r, g, b = base_color 
+    r, g, b = base_color
     h, l, s = colorsys.rgb_to_hls(r / 255.0, g / 255.0, b / 255.0)
     # Generate complementary color
     complementary_h = (h + 0.5) % 1.0 
