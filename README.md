@@ -1,5 +1,5 @@
 # -interior-color-matching-program_________
-import colorsys 
+import colorsys
 import random 
 import matplotlib.pyplot as plt 
 def generate_color_palette(base_color):
